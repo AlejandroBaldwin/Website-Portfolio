@@ -1,0 +1,17 @@
+.Line {
+    display: block;
+    border: solid black 1.5px;
+    background: black;
+    width: 53px;
+    margin: 20px auto;
+
+    &--Inverted {
+        border: white 1.5px solid;
+        background: white;
+    }
+
+    &--gray {
+        border: rgb(83, 83, 83) 1.5px solid;
+    }
+}
+

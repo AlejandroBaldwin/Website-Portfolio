@@ -1,0 +1,28 @@
+.CTA {
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color:  rgb(83, 83, 83);
+    display: inline-block;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+    z-index: 9999;
+    user-select: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active {
+        border: 1px solid white;
+        color: black;
+        transition: 1s all ease-out;
+    }
+
+    &--Inverted {
+        background-color: rgb(75, 75, 75);
+        color: white;
+        z-index: 9999;
+    }
+}

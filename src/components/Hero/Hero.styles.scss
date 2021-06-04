@@ -1,0 +1,40 @@
+@import '../../assets/mixins/mixins.scss';
+
+.Hero {
+    width: 100%;
+    height: 460px;
+    z-index: 0;
+    margin-bottom: 0px;
+    display: inline-flex;
+    position: relative;
+    background-image: url('../../assets/img/websitesBanner.jpg');
+    background-size: cover;
+    background-position: center;
+
+    &__Container {
+        margin: auto 0;
+        width: 100%;
+        height: 100%;
+        font-family: var(--primary-font);
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        z-index: 5;
+        backdrop-filter: blur(8px);
+        background-color: rgba(223, 161, 111, 0.11);
+        justify-content: center;
+    }
+}
+
+@include tablet-p {
+    .Hero {
+        height: calc(100vh - 70px);
+        display: flex;
+        position: relative;
+        width: 100%;
+
+        &__Container {
+            padding: 0 40px;
+        }
+    }
+}

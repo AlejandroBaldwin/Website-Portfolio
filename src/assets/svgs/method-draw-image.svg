@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_30">
+   <rect stroke="null" id="svg_26" height="400.975" width="30.1" y="377.77499" x="656.34167" opacity="undefined" stroke-dasharray="null" stroke-width="null" fill="#000"/>
+   <ellipse stroke="null" ry="52.1375" rx="75.25" id="svg_27" cy="365.41249" cx="669.24167" opacity="undefined" stroke-dasharray="null" stroke-width="null" fill="#000"/>
+   <ellipse stroke="null" ry="66.1125" rx="107.5" id="svg_28" cy="435.28749" cx="673.54167" opacity="undefined" stroke-dasharray="null" fill="#000"/>
+   <ellipse stroke="null" ry="31.31122" rx="39.2375" id="svg_29" cy="308.08497" cx="666.55417" opacity="undefined" stroke-dasharray="null" stroke-width="null" fill="#000"/>
+  </g>
+  <g id="svg_31">
+   <rect stroke="null" id="svg_18" height="546.24998" width="35" y="122.5" x="463.54167" opacity="undefined" stroke-dasharray="null" stroke-width="null" fill="#191919"/>
+   <ellipse ry="60.625" rx="87.5" id="svg_19" cy="108.125" cx="478.54167" opacity="undefined" stroke-dasharray="null" stroke-width="null" fill="#191919"/>
+   <ellipse ry="76.875" rx="125" id="svg_20" cy="189.375" cx="483.54167" opacity="undefined" stroke-dasharray="null" fill="#191919"/>
+   <ellipse ry="36.40839" rx="45.625" id="svg_21" cy="41.46509" cx="475.41667" opacity="undefined" stroke-dasharray="null" stroke-width="null" fill="#191919"/>
+  </g>
+  <g id="svg_32">
+   <rect stroke="null" id="svg_14" height="466.24999" width="35" y="342.5" x="248.54167" opacity="undefined" stroke-dasharray="null" stroke-width="null" fill="#353535"/>
+   <ellipse ry="60.625" rx="87.5" id="svg_15" cy="328.125" cx="263.54167" opacity="undefined" stroke-dasharray="null" stroke-width="null" fill="#353535"/>
+   <ellipse ry="76.875" rx="125" id="svg_16" cy="409.375" cx="268.54167" opacity="undefined" stroke-dasharray="null" fill="#353535"/>
+   <ellipse ry="36.40839" rx="45.625" id="svg_17" cy="261.46509" cx="260.41667" opacity="undefined" stroke-dasharray="null" stroke-width="null" fill="#353535"/>
+  </g>
+  <g id="svg_33">
+   <rect stroke="null" id="svg_6" height="466.24999" width="35" y="173.75" x="-6.45833" opacity="undefined" stroke-dasharray="null" stroke-width="null" fill="#000"/>
+   <ellipse ry="60.625" rx="87.5" id="svg_7" cy="159.375" cx="8.54167" opacity="undefined" stroke-dasharray="null" stroke-width="null" fill="#000"/>
+   <ellipse ry="76.875" rx="125" id="svg_11" cy="240.625" cx="13.54167" opacity="undefined" stroke-dasharray="null" fill="#000"/>
+   <ellipse ry="36.40839" rx="45.625" id="svg_12" cy="92.71509" cx="5.41667" opacity="undefined" stroke-dasharray="null" stroke-width="null" fill="#000"/>
+  </g>
+ </g>
+</svg>

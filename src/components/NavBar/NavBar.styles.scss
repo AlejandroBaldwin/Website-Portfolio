@@ -1,0 +1,93 @@
+@import '../../assets/mixins/mixins.scss';
+
+.NavBar {
+    width: 100vw;
+    padding: 5px 20px;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    transition: height .4s ease-out;
+    height: 50px;
+    overflow-y: hidden;
+    background-color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &__Logo {
+        margin: 7.5px 0;
+        z-index: 12;
+        font-size: 1.3rem;
+        font-family: var(--primary-font)
+    }
+
+    &__Links {
+        width: 100%;
+        height: 70%;
+        list-style: none;
+        margin-top: 10px;
+        z-index: 9999;
+        background: white;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: space-around;
+        overflow-y: hidden;
+
+        &__Link {
+            font-family: var(--primary-font)
+
+        }
+    }
+}
+
+.open {
+    height: 300px;
+}
+
+@include tablet-p {
+    .NavBar {
+        height: 70px;
+        padding-left: 37px;
+        padding-right: 0;
+
+        &__Logo {
+            width: 250px;
+            margin: 10px 0 0 0;
+            font-size: 1.8rem;
+        }
+
+        &__Links {
+            margin-top: 0;
+            margin-right: 28px;
+            height: auto;
+            width: 50%;
+            background: none;
+            flex-direction: row;
+
+            &__Link {
+                font-size: 1.4rem;
+                display: inline-block;
+                vertical-align: middle;
+                margin: auto 0;
+            }
+
+            & a {
+                color: black;
+            }
+        }
+    }
+
+    .open {
+        height: auto;
+    }
+}
+
+@include desktop {
+    .NavBar {
+        padding-left: 137px;
+        
+        &__Links {
+            margin-right: 78px;
+        }
+    }
+}

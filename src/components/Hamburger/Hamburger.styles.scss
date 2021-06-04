@@ -1,0 +1,30 @@
+@import '../../assets/mixins/mixins.scss';
+
+.Hamburger-Icon {
+    z-index: 5;
+    display: inline-flex;
+    flex-flow: column;
+    background: none;
+    height: 40px;
+    cursor: pointer;
+    justify-content: space-around;
+    outline: none;
+    user-select: none;
+    border: solid 1px rgba(128, 128, 128, 0.274);
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: auto 0;
+}
+
+.Hamburger-Bar {
+    width: 25px;
+    border-radius: 5px;
+    border: solid rgba(68, 68, 68, 1) 1px;
+    background-color: rgba(68, 68, 68, 1);
+}
+
+@include tablet-p {
+    .Hamburger-Icon {
+        display: none;
+    }
+}

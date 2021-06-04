@@ -1,0 +1,17 @@
+@import '../../assets/mixins/mixins.scss';
+
+.Subtitle {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+    &--white {
+        color: white;
+    }
+    
+    &--gray {
+        color: rgba(83, 83, 83, 1);
+    }
+}

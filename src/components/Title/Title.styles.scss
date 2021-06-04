@@ -1,0 +1,58 @@
+@import '../../assets/mixins/mixins.scss';
+
+.Title {
+    text-align: center;
+    font-size: 39px;
+    margin: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+    &--white {
+        color: white;
+    }
+    
+    &--gray {
+        color: rgba(83, 83, 83, 1);
+    }
+
+    &--skills {
+        color: rgba(83, 83, 83, 0.9);
+    }
+
+    &--about {
+        font-size: 41px;
+    }
+
+    &--contact {
+        font-weight: 400;
+        font-size: 40px;
+    }
+
+    &--portfolio {
+        font-size: 45px;
+        font-weight: 400;
+    }
+
+    &--hero {
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 0 10px;
+    }
+
+    &--filter {
+        font-weight: 400;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+}
+
+@include tablet-p {
+    .Title {
+        &--hero {
+            font-size: 55px;
+        }
+    }
+}

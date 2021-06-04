@@ -1,0 +1,30 @@
+@import '../../assets/mixins/mixins.scss';
+
+.PGrid {
+    width: 100%;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    user-select: none;
+    margin-top: 70px;
+    margin-bottom: 96px;
+    padding: 0 10px;
+}
+
+@include tablet-p {
+    .PGrid {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+        padding: 0 20px;
+    }
+}
+
+@include desktop {
+    .PGrid {
+        margin-top: 72px;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 118px;
+        row-gap: 76px;
+    }
+}

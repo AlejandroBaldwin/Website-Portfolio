@@ -1,0 +1,50 @@
+@import '../../assets/mixins/mixins.scss';
+
+.PCards {
+    &__Item {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        border-radius: 18px;
+        overflow: hidden;
+
+        &--Border {
+            border: solid 1px #707070;
+        }
+
+        &__BG {
+            width: 100%;
+            height: 100%;
+        }
+
+        &__Hover {
+            top: 0;
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 5;
+            background: rgba(85, 85, 85, 0.541);
+            transition: opacity .2s ease-out;
+            display: flex;
+            user-select: none;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            &__Title {
+                margin: auto;
+                z-index: 10;
+                color: white;
+                font-size: 26px;
+            }
+        }
+    }
+}
+
+@include tablet-p {
+    .odd {
+        grid-column: 1 / 3;
+    }
+}

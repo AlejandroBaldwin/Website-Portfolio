@@ -1,0 +1,72 @@
+@import '../../assets/mixins/mixins.scss';
+
+.Skills {
+    padding: 70px 20px 120px;
+    margin-top: -50px;
+    text-align: center;
+    min-height: 750px;
+    background-color: rgb(227, 237, 243);
+
+    &__Title {
+        font-size: 28px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+
+    &__Grid {
+        display: grid;
+
+        &__Item {
+            width: 100%;
+            padding: 20px;
+
+            &__Icon {
+                margin: -20px 0 20px;
+            }
+
+            &__Title {
+                font-size: 24px;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+            }
+
+            &__Description {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                color: rgb(117, 117, 117);
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@include tablet-p {
+    
+    .Skills {
+        margin-top: -70px;
+        padding-top: 70px;
+        z-index: -58;
+        
+        &__Grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@include desktop {
+
+    .Skills {
+
+        &__Title {
+            margin-bottom: 36px;
+        }
+
+        &__Grid {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            &__Item {
+                &:last-child {
+                }
+            }
+        }
+    }
+}

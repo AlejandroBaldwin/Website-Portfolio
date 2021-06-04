@@ -1,0 +1,53 @@
+@import '../../assets/mixins/mixins.scss';
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 120px 20px;
+
+    &__Title {
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+
+    &__Description {
+        font-size: 20px;
+        color:  rgb(83, 83, 83);
+        margin-bottom: 40px;
+    }
+
+    &__Methods {
+        display: flex;
+        flex-direction: column;
+
+        &__Item {
+            display: inline-flex;
+            flex-direction: column;
+            margin: 20px auto;
+            text-align: center;
+
+            &__Text {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.grayed {
+    margin: 0 auto 20px;
+}
+
+@include desktop {
+
+    .Contact {
+        
+        &__Methods {
+            margin: 0 auto;
+            width: 50%;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.Description {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    font-size: 16.5px;
+    font-weight: 600;
+
+    &--white {
+        color: white;
+    }
+    
+    &--gray {
+        color: rgba(83, 83, 83, 1);
+    }
+
+    &--about {
+        font-size: 20px;
+    }
+
+    &--contact {
+        font-size: 18px;
+    }
+
+    &--hero {
+        font-size: 24px;
+    }
+
+    &--footer {
+        margin: auto;
+        color: rgba(0, 0, 0, 0.75);
+    }
+}

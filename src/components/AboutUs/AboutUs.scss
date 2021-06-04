@@ -1,0 +1,35 @@
+@import '../../assets/mixins/mixins.scss';
+
+.AboutUs {
+    background:  rgb(83, 83, 83);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -50px;
+    padding: 90px 20px 140px;
+    z-index: 5;
+    position: relative;
+
+    &__Title {
+        color: white;
+        font-size: 38px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    &__Description {
+        color: rgb(204, 204, 204);
+        margin-bottom: 40px;
+    }
+}
+
+@include desktop {
+    .AboutUs {
+        margin-top: -70px;
+        padding-top: 70px;
+
+        &__Description {
+            max-width: 580px;
+            margin: 0 auto 40px;
+        }
+    }
+}
