@@ -1,1 +1,1 @@
-Personal Portfolio to showcase my latets projects
+Personal Portfolio to showcase my latets projects.git a
